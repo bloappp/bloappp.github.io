@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;400&family=Josefin+Slab:wght@200&display=swap');
+:root {
+    --color-background: #212126;
+    --color_default_font: #c0cbd6;
+}
+
+/* Header */
+.header {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    height: 100pt;
+}
+
+.header-container {
+    background-color: var(--color-background);
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flexbox;
+    padding: auto;
+    justify-content: center;
+    background-color: var(--color-background);
+}
+
+.center-text {
+
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    font-family: 'Josefin Slab', serif;
+    font-size: 128pt;
+    color: var(--color_default_font);
+}
